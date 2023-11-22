@@ -1,8 +1,8 @@
-noti_key = 'no i dont have' // enter something... or no... (no?? next)
-name_server = 'Annie Cuti <3' // enter your server name :)
-invite_discord = 'discord.gg/qzAE4cVwk6' // enter your link invite discord or error
+noti_key = 'no i dont have'
+name_server = 'Rimus Hub Community' // enter your server name :)
+invite_discord = 'https://discord.com/invite/FZzxtjgjte' // enter your link invite discord or error
 noti_config = {
-    boss: true, -- nhap webhook
+    boss: true,
     sword: true,
     mirage: true,
     haki: {
@@ -10,25 +10,25 @@ noti_config = {
         legend: true
     },
     fullmoon: true,
-    fruit_drop: true -- nhap webhook
+    fruit_drop: true
 }
 
 // req: turn on for edit webhook or no = error
 webhook_config = {
-    boss: 'https://discord.com/api/webhooks/1176896690440130672/-OhR_KG-URfkLqLYZ_qSpdAC45lq_LecHHNcMM-cB11XzcM6ScYJskZLfNQ8kRAX9PPo', // nhap webhook
-    sword: 'https://discord.com/api/webhooks/1176149374678610011/9zpnMPmzxCLmRPApR-JBBg-HMEJhSoyqaE0e9xLxOC6OnjpzRhalzWLlXKyqJU_M_Dgc', -- nhap webhook
-    mirage: 'https://discord.com/api/webhooks/1176149217199267860/dtz6xF1uwwc3I3xJUnD7WZ9p31evydzP78pV0a-x-gf1QsfQUFvufbYxAENgebJ4H_AI', -- nhap webhook
+    boss: 'https://discord.com/api/webhooks/1176896690440130672/-OhR_KG-URfkLqLYZ_qSpdAC45lq_LecHHNcMM-cB11XzcM6ScYJskZLfNQ8kRAX9PPo',
+    sword: 'https://discord.com/api/webhooks/1176149374678610011/9zpnMPmzxCLmRPApR-JBBg-HMEJhSoyqaE0e9xLxOC6OnjpzRhalzWLlXKyqJU_M_Dgc',
+    mirage: 'https://discord.com/api/webhooks/1176149217199267860/dtz6xF1uwwc3I3xJUnD7WZ9p31evydzP78pV0a-x-gf1QsfQUFvufbYxAENgebJ4H_AI',
     haki: {
-        normal: 'https://discord.com/api/webhooks/1176897636763185172/NRl82Qyzw7qOJdzXQJ2TYkd-oWrKfHy-OJpHVhuBgiyOT4u0LpKe7IpuM5scEokxhRuT', -- nhap webhook
-        legend: 'https://discord.com/api/webhooks/1176897525735755906/HdjA3bf696ZF03Riz7Fngold0ET67bUEglNcVtxH-SijptWaglScHyERS3p0jUxnnB9-' -- nhap webhook
+        normal: 'https://discord.com/api/webhooks/1176897636763185172/NRl82Qyzw7qOJdzXQJ2TYkd-oWrKfHy-OJpHVhuBgiyOT4u0LpKe7IpuM5scEokxhRuT',
+        legend: 'https://discord.com/api/webhooks/1176897525735755906/HdjA3bf696ZF03Riz7Fngold0ET67bUEglNcVtxH-SijptWaglScHyERS3p0jUxnnB9-'
     },
-    fullmoon: 'https://discord.com/api/webhooks/1176395818362748998/vshcnlm0zke6mgwj8_t0sd_nxZaBLCSS5GpOK8MT3thY3J12_E0RH-T5CZX3O6OeUvmV', -- nhap webhook
-    fruit_drop: 'https://discord.com/api/webhooks/1176897823560695868/ZjCVTrwGOylwGWBp75YzAclv3LBsjUOTqCcMRtqQguzHpeKflKujeUuhZkSmj9s5JQz_' -- nhap webhook
+    fullmoon: 'https://discord.com/api/webhooks/1176395818362748998/vshcnlm0zke6mgwj8_t0sd_nxZaBLCSS5GpOK8MT3thY3J12_E0RH-T5CZX3O6OeUvmV',
+    fruit_drop: 'https://discord.com/api/webhooks/1176897823560695868/ZjCVTrwGOylwGWBp75YzAclv3LBsjUOTqCcMRtqQguzHpeKflKujeUuhZkSmj9s5JQz_'
 }
 
 // obf here
 
-token = ''
+token = 'MTE3Njg5OTQ5MzU1MjE5NzY3Mw.GTTyEj.TtZ4I2FRkcu_4zizyG-w1KLVQF17hxWSZ4jWCw'
 
 try {
     require.resolve('discord.js-selfbot-v13');
